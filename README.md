@@ -1,3 +1,9 @@
 ## Learn React Router
 
-### Learn by doing from this article https://codeburst.io/4-four-ways-to-style-react-components-ac6f323da822
+### https://codeburst.io/getting-started-with-react-router-5c978f70df91
+
+## How to run the project
+
+- Clone the project
+- npm install
+- npm start

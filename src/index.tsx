@@ -4,20 +4,20 @@ import "./index.css";
 import Home from "./Home";
 import User from "./User";
 import Contact from "./Contact";
-import { Route, Link, BrowserRouter as Router, Switch } from "react-router-dom";
+import { Route, Link, BrowserRouter as Router, Switch, NavLink } from "react-router-dom";
 import NotFound from "./NotFound";
 
 const Routing = () => (
   <Router>
     <ul className='main-nav'>
       <li>
-        <Link to="/">Home</Link>
+        <NavLink exact activeClassName='active' to="/">Home</NavLink>
       </li>
       <li>
-        <Link to="/user">User</Link>
+        <NavLink activeClassName='active' to="/user">User</NavLink>
       </li>
       <li>
-        <Link to="/contact">Contact</Link>
+        <NavLink activeClassName='active' to="/contact">Contact</NavLink>
       </li>
     </ul>
     <div>

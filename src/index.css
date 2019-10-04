@@ -14,9 +14,11 @@
   display: inline-block;
   width:50px;
 }
-.main-nav{
-  
-}
+
 .main-nav:after {
   clear: both;
+}
+
+.active{
+   color:red;
 }
